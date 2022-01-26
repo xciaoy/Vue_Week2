@@ -10,7 +10,7 @@ const App = {
   },methods: {
     checkLogin() {
       // 確認是否登入
-      axios.post(`${this.url}/api/user/check`) //https://vue3-course-api.hexschool.io/v2/api/user/check
+      axios.post(`${this.url}/api/user/check`)
         .then((res) => {
 
           this.getProductsData();
